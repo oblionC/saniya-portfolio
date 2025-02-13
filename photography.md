@@ -1,3 +1,4 @@
 ---
-layout: photography
+layout: categorypage 
+name: photography
 ---
