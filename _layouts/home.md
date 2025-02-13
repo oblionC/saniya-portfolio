@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<div class="font-[Instrument_Serif] overflow-hidden text-white navbar-offset-center fit-view flex justify-center">
+<div class="font-[Instrument_Serif] min-h-[720px] overflow-hidden text-white navbar-offset-center fit-view flex justify-center">
     <div class="grid grid-cols-4">
         <div class="col-span-1 relative select-none">
             <div class="w-full h-full flex justify-center items-center">
@@ -28,43 +28,42 @@ layout: base
         </div>
     </div>
 </div>
-<div class="max-w-screen md:px-20 px-5 text-white font-[Instrument_Serif] mt-20">
+<div class="max-w-screen md:px-20 px-5 text-white font-[Instrument_Serif] my-20">
     <div class="md:text-[64px] text-[47px]">
         works
     </div>
     <div class="flex flex-col">
         <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 gap-5 h-[580px] min-h-[580px]">
             <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
-                <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
-                    <div class="text-[40px] w-full h-full flex justify-center items-center">
-                        typography    
+                <a href="/typography">
+                    <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
+                        <div class="text-[40px] w-full h-full flex justify-center items-center">
+                            typography    
+                        </div>
                     </div>
-                </div>
-                <img class="w-full h-full object-cover" src="assets/images/illustration1.png" />
+                    <img class="w-full h-full object-cover" src="assets/images/illustration1.png" />
+                </a>
             </div>
             <div class="md:col-span-4 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
-                <a href="/photography">
+                <!-- <a href="/"> -->
                     <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                         <div class="text-[40px] w-full h-full flex justify-center items-center">
                         photography 
                         </div>
                     </div>
                     <img class="w-full h-full object-cover" src="assets/images/photography/photography1.png" />  
-                </a>
+                <!-- </a> -->
             </div>
         </div>
-        <div class="grid grid-cols-10 gap-5 mt-5">
+        <!-- <div class="grid grid-cols-10 gap-5 mt-5">
             <div class="col-span-10 rounded-3xl h-[586px] bg-white">
-                
             </div>
         </div>
         <div class="grid grid-cols-10 gap-5 mt-5">
             <div class="col-span-6 rounded-3xl h-[586px] bg-white">
-
             </div>
             <div class="col-span-4 rounded-3xl h-[586px] bg-white">
-                
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
