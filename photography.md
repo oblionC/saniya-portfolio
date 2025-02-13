@@ -1,4 +1,4 @@
 ---
 layout: categorypage 
-name: photography
+category: photography
 ---

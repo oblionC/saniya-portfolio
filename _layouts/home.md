@@ -5,23 +5,23 @@ layout: base
     <div class="grid grid-cols-4">
         <div class="col-span-1 relative select-none">
             <div class="w-full h-full flex justify-center items-center">
-                <div class="2xl:w-[650px] xl:w-[400px] md:w-[360px] w-[300px] absolute xl:right-0 lg:right-15 right-10 origin-center rotating">
+                <div class="2xl:w-[600px] xl:w-[500px] md:w-[420px] w-[300px] absolute 2xl:right-15 xl:right-15 md:right-5 right-10 origin-center rotating">
                     <img src="assets/images/flower_pixelated.png" />
                 </div>
             </div>
         </div>
         <div class="col-span-2 flex flex-col justify-center">
-            <div class="2xl:text-[140px] xl:text-[100px] md:text-[70px] text-[50px] 2xl:leading-34 xl:leading-24 md:leading-17 leading-12 flex justify-center text-center mb-5">
+            <div class="2xl:text-[120px] xl:text-[100px] md:text-[70px] text-[50px] 2xl:leading-29 xl:leading-24 md:leading-17 leading-12 flex justify-center text-center mb-5">
                     Saniya <br>
                     Murdeshwar
             </div>
-            <div class="2xl:text-[53px] xl:text-[38px] md:text-[26px] text-[19px] 2xl:leading-15 xl:leading-10 md:leading-8 leading-5 flex justify-center text-balance text-center italic">
+            <div class="2xl:text-[45px] xl:text-[38px] md:text-[26px] text-[19px] 2xl:leading-14 xl:leading-10 md:leading-8 leading-5 flex justify-center text-balance text-center italic">
                 Mumbai-based design enthusiast who geeks out over fonts, frames, and illustrations.
             </div>
         </div>
         <div class="col-span-1 relative select-none">
             <div class="w-full h-full flex justify-center items-center">
-                <div class="2xl:w-[650px] xl:w-[400px] md:w-[360px] w-[300px] absolute xl:left-0 lg:left-15 left-10 origin-center reverse-rotating">
+                <div class="2xl:w-[600px] xl:w-[500px] md:w-[420px] w-[300px] absolute 2xl:left-15 xl:left-15 md:left-5 left-10 origin-center reverse-rotating">
                     <img src="assets/images/flower_pixelated.png" />
                 </div>
             </div>
