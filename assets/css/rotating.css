@@ -1,0 +1,25 @@
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes reverse-rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 20s linear infinite;
+}
+
+.reverse-rotating {
+    -webkit-animation: reverse-rotating 20s linear infinite;
+}

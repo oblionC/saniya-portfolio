@@ -7,54 +7,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="assets/css/rotating.css" rel="stylesheet">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style>
         body {background-color: black;}
     </style>
 </head>
 <body>
-    <div class="w-full h-[50px] text-[24px] text-white flex items-center justify-center">
-        <div class="flex flex-row items-center">
-            <div class="font-[Instrument_Serif]">
-                work
-            </div>
-            <div class="h-full w-[15px] aspect-square mx-3">
-                <img src="/assets/images/dot_pixelated.png" />
-            </div>
-            <div class="font-[Instrument_Serif]">
-                contact
-            </div>
-            <div class="h-full w-[15px] aspect-square mx-3">
-                <img src="/assets/images/dot_pixelated.png" />
-            </div>
-            <div class="font-[Instrument_Serif]">
-                about me
-            </div>
-        </div>
-    </div>
-    <div class="font-[Instrument_Serif] text-white mt-20 overflow-hidden">
+    {% include navbar.html %}
+    <div class="font-[Instrument_Serif] text-white mt-4 overflow-hidden py-5">
         <div class="grid grid-cols-4 bg-blue">
-            <div class="col-span-1 relative results">
-                <div class="w-[600px] absolute right-30 origin-center rotate-20">
+            <div class="col-span-1 relative results select-none">
+                <div class="xl:w-[600px] md:w-[400px] w-[300px] absolute xl:right-30 lg:right-15 right-10 origin-center rotating">
                     <img src="/assets/images/flower_pixelated.png" />
                 </div>
             </div>
             <div class="col-span-2 flex flex-col justify-center">
-                <div class="text-[96px] flex justify-center">
-                    <!-- The font has empty space in its graphic that is apparent even with 0 margin. This counteracts it -->
-                    <div class="relative top-10">
-                        Saniya 
-                    </div>
+                <div class="xl:text-[96px] md:text-[70px] text-[50px] xl:leading-24 md:leading-17 leading-12 flex justify-center text-center mb-5">
+                        Saniya <br>
+                        Murdeshwar
                 </div>
-                <div class="text-[96px] flex justify-center">
-                    Murdeshwar
-                </div>
-                <div class="text-[36px] flex justify-center text-balance text-center">
+                <div class="xl:text-[36px] md:text-[26px] text-[19px] xl:leading-10 md:leading-8 leading-5 flex justify-center text-balance text-center italic">
                     Mumbai-based design enthusiast who geeks out over fonts, frames, and illustrations.
                 </div>
             </div>
-            <div class="col-span-1 relative left-30">
-                <div class="w-[600px] origin-center rotate-20">
+            <div class="col-span-1 relative xl:left-30 lg:left-15 left-10 select-none">
+                <div class="xl:w-[600px] md:w-[400px] w-[300px] origin-center reverse-rotating">
                     <img src="/assets/images/flower_pixelated.png" />
                 </div>
             </div>
@@ -62,22 +40,24 @@
         </div>
     </div>
     <div class="max-w-screen px-20 text-white font-[Instrument_Serif] mt-20">
-        <div class="text-[64px]">
+        <div class="md:text-[64px] text-[47px]">
             works
         </div>
         <div class="flex flex-col">
-            <div class="grid grid-cols-10 gap-5">
-                <div class="col-span-6 rounded-3xl h-[586px] bg-[#600000] overflow-hidden relative hover:cursor-pointer">
-                    <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-40 absolute w-full h-full"></div>
-                    <div class="absolute top-10 left-10 lg:text-[40px] text-[28px]">
-                        typography    
+            <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 gap-5 h-[580px] min-h-[580px]">
+                <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
+                    <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
+                        <div class="text-[40px] w-full h-full flex justify-center items-center">
+                            typography    
+                        </div>
                     </div>
                     <img class="w-full h-full object-cover" src="assets/images/illustration1.png" />
                 </div>
-                <div class="col-span-4 rounded-3xl h-[586px] bg-white overflow-hidden relative hover:cursor-pointer">
-                    <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-40 absolute w-full h-full"></div>
-                    <div class="absolute top-10 left-10 lg:text-[40px] text-[28px]">
-                        photography
+                <div class="md:col-span-4 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
+                    <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
+                        <div class="text-[40px] w-full h-full flex justify-center items-center">
+                           photography 
+                        </div>
                     </div>
                     <img class="w-full h-full object-cover" src="assets/images/photography1.png" />  
                 </div>
