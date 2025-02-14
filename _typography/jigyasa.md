@@ -9,6 +9,9 @@ layout: post
         <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 1.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 8.jpg" />
+    </div>
+    <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
         <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 2.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
@@ -25,8 +28,5 @@ layout: post
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
         <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 7.jpg" />
-    </div>
-    <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 8.jpg" />
     </div>
 </div>
