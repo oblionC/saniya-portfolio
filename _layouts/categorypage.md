@@ -14,17 +14,18 @@ layout: base
     {% for collection in site.collections %}
         {% if collection.label == page.category %}
             {% for item in site[collection.label] %}
-            <div class="col-span-1 h-[500px] rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
+            <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
                 <a href="{{site.baseurl}}{{ item.url }}">
                     <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                         <div class="text-[40px] w-full h-full flex justify-center items-center">
                             {{ item.name }} 
                         </div>
                     </div>
-                    <img class="w-full h-full object-cover" src="{{site.baseurl}}{{ item.image }}" />
+                    <img class="w-full h-full object-fit" src="{{site.baseurl}}{{ item.image }}" />
                 </a>
             </div>
             {% endfor %}
         {% endif %}
     {% endfor %}  
 </div>
+{% include footer.html %}
