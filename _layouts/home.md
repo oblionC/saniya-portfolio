@@ -35,7 +35,7 @@ layout: base
     <div class="flex flex-col">
         <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 gap-5 h-[580px] min-h-[580px]">
             <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
-                <a href="/typography">
+                <a href="{{site.baseurl}}typography">
                     <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                         <div class="text-[40px] w-full h-full flex justify-center items-center">
                             typography    

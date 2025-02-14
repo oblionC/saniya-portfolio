@@ -15,7 +15,7 @@ layout: base
         {% if collection.label == page.category %}
             {% for item in site[collection.label] %}
             <div class="col-span-1 h-[500px] rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
-                <a href="{{ item.url }}">
+                <a href="{{site.baseurl}}{{ item.url }}">
                     <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                         <div class="text-[40px] w-full h-full flex justify-center items-center">
                             {{ item.name }} 
