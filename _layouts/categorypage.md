@@ -11,9 +11,10 @@ layout: base
         </div>
     </div>
     <div class="grid grid-cols-2 gap-5">
-    {% for collection in site.collections %}
-        {% if collection.label == page.category %}
-            {% for item in site[collection.label] %}
+    {% for filename in page.order %}
+        {% assign category = page.category | prepend: "_" %}
+        {% assign file = filename | prepend: "/" | prepend: category %}
+        {% assign item = site[page.category] | where: "path", file | first %}
             <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
                 <a href="{{site.baseurl}}{{ item.url }}">
                     <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
@@ -24,8 +25,6 @@ layout: base
                     <img class="w-full h-full object-fit" src="{{site.baseurl}}{{ item.image }}" />
                 </a>
             </div>
-            {% endfor %}
-        {% endif %}
     {% endfor %}  
 </div>
 {% include footer.html %}
