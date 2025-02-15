@@ -1,10 +1,10 @@
 ---
 layout: base
 ---
-<div class="font-[Instrument_Serif] min-h-[720px] overflow-hidden text-white navbar-offset-center fit-view flex justify-center">
+<div class="font-[Instrument_Serif] min-h-[720px] text-white navbar-offset-center fit-view flex justify-center fade-up">
     <div class="grid grid-cols-4">
         <div class="col-span-1 relative select-none">
-            <div class="w-full h-full flex justify-center items-center">
+            <div class="w-full h-full flex justify-center items-center fade-right">
                 <div class="2xl:w-[600px] xl:w-[500px] md:w-[420px] w-[300px] absolute 2xl:right-15 xl:right-15 md:right-5 right-10 origin-center rotating">
                     <img src="assets/images/flower_pixelated.png" />
                 </div>
@@ -20,7 +20,7 @@ layout: base
             </div>
         </div>
         <div class="col-span-1 relative select-none">
-            <div class="w-full h-full flex justify-center items-center">
+            <div class="w-full h-full flex justify-center items-center fade-left">
                 <div class="2xl:w-[600px] xl:w-[500px] md:w-[420px] w-[300px] absolute 2xl:left-15 xl:left-15 md:left-5 left-10 origin-center reverse-rotating">
                     <img src="assets/images/flower_pixelated.png" />
                 </div>
@@ -45,14 +45,14 @@ layout: base
                 </a>
             </div>
             <div class="md:col-span-4 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
-                <!-- <a href="/"> -->
+                <a href="{{site.baseurl}}photography">
                     <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                         <div class="text-[40px] w-full h-full flex justify-center items-center">
-                        photography 
+                            photography 
                         </div>
                     </div>
                     <img class="w-full h-full object-cover" src="assets/images/photography/photography1.png" />  
-                <!-- </a> -->
+                </a>
             </div>
         </div>
         <!-- <div class="grid grid-cols-10 gap-5 mt-5">
