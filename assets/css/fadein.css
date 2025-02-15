@@ -33,6 +33,7 @@
 }
 
 .fade-up {
+    opacity: 1;
     animation: fade-up 1s;
 }
 

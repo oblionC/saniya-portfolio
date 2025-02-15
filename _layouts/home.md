@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<div class="font-[Instrument_Serif] min-h-[720px] text-white navbar-offset-center fit-view flex justify-center fade-up">
+<div class="font-[Instrument_Serif] min-h-[720px] text-white navbar-offset-center fit-view flex justify-center opacity-0 fade-up">
     <div class="grid grid-cols-4">
         <div class="col-span-1 relative select-none">
             <div class="w-full h-full flex justify-center items-center fade-right">

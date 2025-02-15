@@ -1,4 +1,4 @@
 .fit-view {
     /* 64 comes from height + y padding on navbar */
-    height: calc(100vh - 112px) 
+    height: calc(100dvh - 112px) 
 }
