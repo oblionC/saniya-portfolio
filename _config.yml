@@ -36,10 +36,14 @@ plugins:
   - jekyll-postcss
 
 collections:
+  animations:
+    output: true 
   typography:
     output: true
   photography:
-    output:
+    output: true
+  illustrations:
+    output: true
 
 postcss:
   cache: false

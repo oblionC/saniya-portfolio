@@ -1,5 +1,5 @@
 ---
-layout: categorypage 
+layout: photographypage
 category: photography
-description: Everyday surroundings, no matter how random, become the foundation of my typographic creativity.
+description: My photographic style revolves around the dynamic interplay of light and shadow, using contrast to create depth and emotion.Photos.
 ---

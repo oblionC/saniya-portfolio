@@ -1,7 +1,7 @@
 ---
-name: photography 1 
+name: social anxiety 
 image: /assets/images/photography/photography.png
-description: This experimental Devanagari display typeface explores the dynamic interplay of gradients and colours, pushing the boundaries of traditional letterforms.
+description: This photographic series metaphorically depicts social anxiety. The ‘black dupatta’ gradually enveloping the subject symbolises how anxiety consumes the mind, leading to self-doubt, exclusion, and suffocation. The shifting shadows reflect the haunting voices within. Viewed in reverse, the series becomes a journey of breaking free and reclaiming clarity.
 layout: post
 ---
 <div class="grid grid-cols-2 gap-5">

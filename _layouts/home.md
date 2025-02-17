@@ -28,42 +28,46 @@ layout: base
         </div>
     </div>
 </div>
-<div class="max-w-screen md:px-20 px-5 text-white font-[Instrument_Serif] my-20">
-    <div class="md:text-[64px] text-[47px]">
+<div class="font-[Instrument_Serif] min-h-[720px] max-w-full text-white flex justify-center opacity-0 fade-up flex flex-col mx-20">
+    <div class="md:text-[64px] text-[48px]">
         works
     </div>
-    <div class="flex flex-col">
-        <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 gap-5 h-[580px] min-h-[580px]">
-            <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
-                <a href="{{site.baseurl}}typography">
-                    <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
-                        <div class="text-[40px] w-full h-full flex justify-center items-center">
-                            typography    
-                        </div>
+    <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 gap-5">
+        <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
+            <a href="{{site.baseurl}}typography">
+                <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
+                    <div class="text-[40px] w-full h-full flex justify-center items-center">
+                        typography    
                     </div>
-                    <img class="w-full h-full object-cover" src="assets/images/illustration1.png" />
-                </a>
-            </div>
-            <div class="md:col-span-4 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
-                <a href="{{site.baseurl}}photography">
-                    <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
-                        <div class="text-[40px] w-full h-full flex justify-center items-center">
-                            photography 
-                        </div>
+                </div>
+                <img class="w-full h-full object-cover" src="assets/images/illustration1.png" />
+            </a>
+        </div>
+        <div class="md:col-span-4 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
+            <a href="{{site.baseurl}}photography">
+                <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
+                    <div class="text-[40px] w-full h-full flex justify-center items-center">
+                        photography 
                     </div>
-                    <img class="w-full h-full object-cover" src="assets/images/photography/photography1.png" />  
-                </a>
-            </div>
+                </div>
+                <img class="w-full h-full object-cover" src="assets/images/photography/photography1.png" />  
+            </a>
         </div>
-        <!-- <div class="grid grid-cols-10 gap-5 mt-5">
-            <div class="col-span-10 rounded-3xl h-[586px] bg-white">
-            </div>
+        <div class="md:col-span-10 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
+            <a href="{{site.baseurl}}illustrations">
+                <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
+                    <div class="text-[40px] w-full h-full flex justify-center items-center">
+                        illustrations 
+                    </div>
+                </div>
+                <img class="w-full h-full object-cover" src="assets/images/illustrations/illustration-banner.png" />  
+            </a>
         </div>
-        <div class="grid grid-cols-10 gap-5 mt-5">
-            <div class="col-span-6 rounded-3xl h-[586px] bg-white">
-            </div>
-            <div class="col-span-4 rounded-3xl h-[586px] bg-white">
-            </div>
-        </div> -->
+    <!-- <div class="grid grid-cols-10 gap-5 mt-5">
+        <div class="col-span-6 rounded-3xl h-[586px] bg-white">
+        </div>
+        <div class="col-span-4 rounded-3xl h-[586px] bg-white">
+        </div>
+    </div> -->
     </div>
 </div>

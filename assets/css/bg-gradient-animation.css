@@ -1,0 +1,39 @@
+@property --rotation {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes lifafa-bg-animation {
+    0% {
+        --rotation: 0deg;
+    }
+    100% {
+        --rotation: 360deg;
+    }
+}
+
+.lifafa-bg-gradient {
+    background-color: white;
+    background-image: conic-gradient(
+        from var(--rotation),
+        #F4C14D,
+        #F37C4B,
+        #B7392C,
+        #9F0F0D,
+        #2F0704,
+        #150002,
+        #060102,
+        #150002,
+        #2F0704,
+        #9F0F0D,
+        #B7392C,
+        #F37C4B,
+        #F4C14D
+    );
+    /* background-size: 400% 400%; */
+    animation-name: lifafa-bg-animation;
+    animation-duration: 20s;
+    animation-timing-function: cubic-bezier(.66,-0.01,.39,.95);
+    animation-iteration-count: infinite;
+}

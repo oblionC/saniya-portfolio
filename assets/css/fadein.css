@@ -32,6 +32,18 @@
     }
 }
 
+@keyframes opacity-fade-in-out {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 .fade-up {
     opacity: 1;
     animation: fade-up 1s;
@@ -45,4 +57,10 @@
 .fade-right{
     animation-delay: 3s;
     animation: fade-right 1s;
+}
+
+.opacity-fade-in-out {
+    animation-name: opacity-fade-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }

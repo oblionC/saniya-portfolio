@@ -1,21 +1,11 @@
 module.exports = {
-  content: [
-    './_drafts/**/*.html',
-    './_includes/*.html',
-    './_layouts/*.html',
-    './_layouts/**/*.md',
-    './_posts/*.md',
-    './_typography/*.md',
-    './_photography/*.md',
-    './*.md',
-    './*.html',
-    './**/*.md',
-    './**/*.html',
-  ],
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    theme: {
-      extend: {},
-    },
+    extend: {},
   },
-  plugins: []
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }
