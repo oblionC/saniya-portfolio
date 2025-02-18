@@ -14,6 +14,9 @@ layout: base
         {% assign item = site[page.category] | where: "name", "social anxiety" | first %}
         <div class="col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative">
             <a href="{{site.baseurl}}{{ item.url }}">
+                <div class="absolute top-[3%] right-[5%] xl:text-[66px] lg:text-[50px] text-[40px] text-black">
+                    2023
+                </div>
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
                         {{ item.name }} 
@@ -30,6 +33,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[5%] xl:text-[66px] lg:text-[50px] text-[40px] text-white">
+                    2023
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
             <!-- </a> -->
         </div>
@@ -41,6 +47,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[5%] xl:text-[66px] lg:text-[50px] text-[40px] text-white">
+                    2023
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
             </a>
         </div>
@@ -52,6 +61,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[5%] xl:text-[66px] lg:text-[50px] text-[40px] text-white">
+                    2024
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
             <!-- </a> -->
         </div>
@@ -63,6 +75,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[5%] xl:text-[66px] lg:text-[50px] text-[40px] text-white">
+                    2024
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
             </a>
         </div>
@@ -74,6 +89,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[5%] xl:text-[66px] lg:text-[50px] text-[40px] text-white">
+                    2024
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
             </a>
         </div>
@@ -85,6 +103,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[5%] xl:text-[66px] lg:text-[50px] text-[40px] text-white">
+                    2023
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
             </a>
         </div>
@@ -96,6 +117,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[5%] xl:text-[66px] lg:text-[50px] text-[40px] text-white">
+                    2023
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
             </a>
         </div>
