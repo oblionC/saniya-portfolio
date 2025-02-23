@@ -2,3 +2,7 @@
     /* 64 comes from height + y padding on navbar */
     height: calc(100dvh - 112px) 
 }
+
+.fit-title-with-banner {
+    height: calc(100dvh - 112px - 595px)
+}
