@@ -37,7 +37,7 @@ layout: base
         <img src="{{site.baseurl}}assets/images/typography/website_line-47.png">
         <img src="{{site.baseurl}}assets/images/typography/website_line-47.png">
    </div> 
-    <div class="hidden flex-row bg-scroll-right w-[1900px] md:flex">
+    <div class="flex flex-row bg-scroll-right w-[1900px] [@media(max-height:750px)]:hidden">
         <img src="{{site.baseurl}}assets/images/typography/website_line-46.png">
         <img src="{{site.baseurl}}assets/images/typography/website_line-46.png">
     </div>
@@ -56,19 +56,19 @@ layout: base
             </div>
             <div class="absolute xl:w-[780px] md:w-[560px] w-[330px] -rotate-13">
                 <div class="relative max-w-full xl:top-[230px] md:top-[150px] top-[110px] xl:-right-[40%] -right-[33%]">
-                    <img class="absolute w-[77%] top-0 left-0 right-0 bottom-0 my-auto mx-auto drop-shadow-lg" src="{{site.baseurl}}assets/images/typography/kannada_individual-16.png">
+                    <img class="absolute w-[77%] top-0 left-0 right-0 bottom-0 my-auto mx-auto drop-shadow-2xl" src="{{site.baseurl}}assets/images/typography/kannada_individual-16.png">
                     <img src="{{site.baseurl}}assets/images/typography/website_42-42.png">
                 </div>
             </div>
             <div class="absolute max-w-[780px]">
-                <div class="relative xl:max-w-[780px] md:max-w-[560px] max-w-[330px] top-[80px] xl:-right-[370px] md:-right-[200px] -right-[130px] drop-shadow-lg">
+                <div class="relative xl:max-w-[780px] md:max-w-[560px] max-w-[330px] top-[80px] xl:-right-[370px] md:-right-[200px] -right-[130px] drop-shadow-2xl">
                     <img class="w-[20%] m-auto" src="{{site.baseurl}}assets/images/typography/website_42-43.png">
                 </div>
             </div>
         </div>
     </div>
     <div class="w-full grid grid-cols-10 my-20">
-        <div class="lg:col-span-6 col-span-10 align-middle md:text-[48px] text-[22px] lg:pl-0 pl-5 flex items-center">
+        <div class="lg:col-span-6 col-span-10 align-middle md:text-[48px] text-[22px] lg:pl-0 pl-5 flex items-center md:leading-10 leading-5">
             During a trip to Karnataka, I observed a lack of elegant Kannada script fonts, with most being thick and bold. This inspired me to create a refined and graceful Kannada typeface.
         </div>
         <div class="lg:col-span-4 col-span-10 flex lg:flex-row-reverse lg:justify-normal justify-center lg:items-baseline items-center">
@@ -87,3 +87,4 @@ layout: base
         </div>
     </div>
 </div>
+{% include footer.html year=2024%}
