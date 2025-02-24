@@ -28,7 +28,7 @@ layout: base
         </div>
     </div>
 </div>
-<div class="font-[Instrument_Serif] min-h-[720px] max-w-full text-white flex justify-center opacity-0 fade-up flex flex-col mx-20">
+<div class="font-[Instrument_Serif] min-h-[720px] max-w-full text-white justify-center opacity-0 fade-up flex flex-col md:mx-20 mx-5">
     <div class="md:text-[64px] text-[48px]">
         works
     </div>
