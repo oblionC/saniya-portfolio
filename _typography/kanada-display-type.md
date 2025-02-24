@@ -6,42 +6,42 @@ layout: base
 ---
 <div class="max-w-screen overflow-hidden">
     <div class="flex flex-row bg-scroll-right w-[1900px]">
-        <img class="object-scale-down w-full" src="{{site.baseurl}}assets/images/typography/website_line-44.png">
-        <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_line-44.png">
+        <img class="object-scale-down w-full" src="{{site.baseurl}}assets/images/typography/website_line-48.png">
+        <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_line-48.png">
     </div>
     <div class="flex flex-row bg-scroll-left w-[1900px]">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-45.png">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-45.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-46.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-46.png">
     </div>
     <div class="flex flex-row bg-scroll-right w-[1900px]">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-46.png">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-46.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-49.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-49.png">
+    </div>
+    <div class="flex flex-row bg-scroll-left w-[1900px]">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-48.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-48.png">
+    </div>
+    <div class="flex flex-row bg-scroll-right w-[1900px]">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-47.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-47.png">
+    </div>
+    <div class="flex flex-row bg-scroll-left w-[1900px]">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-50.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-50.png">
+    </div>
+    <div class="flex flex-row bg-scroll-right w-[1900px]">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-49.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-49.png">
     </div>
     <div class="flex flex-row bg-scroll-left w-[1900px]">
         <img src="{{site.baseurl}}assets/images/typography/website_line-47.png">
         <img src="{{site.baseurl}}assets/images/typography/website_line-47.png">
-    </div>
+   </div> 
     <div class="flex flex-row bg-scroll-right w-[1900px]">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-48.png">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-48.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-46.png">
+        <img src="{{site.baseurl}}assets/images/typography/website_line-46.png">
     </div>
-    <div class="flex flex-row bg-scroll-left w-[1900px]">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-49.png">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-49.png">
-    </div>
-    <div class="flex flex-row bg-scroll-right w-[1900px]">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-50.png">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-50.png">
-    </div>
-    <div class="flex flex-row bg-scroll-left w-[1900px]">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-51.png">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-51.png">
-    </div>
-    <div class="flex flex-row bg-scroll-right w-[1900px]">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-52.png">
-        <img src="{{site.baseurl}}assets/images/typography/website_line-52.png">
-    </div>
-    <div class="lg:text-[96px] md:text-[96px] text-[60px] flex justify-center items-center fit-title-with-banner min-h-[100px] italic">
+    <div class="lg:text-[96px] md:text-[96px] text-[50px] flex justify-center items-center fit-title-with-banner min-h-[145px] italic">
         {{ page.name }}
     </div>
 </div>
@@ -56,12 +56,12 @@ layout: base
             </div>
             <div class="absolute xl:w-[780px] md:w-[560px] w-[330px] -rotate-13">
                 <div class="relative max-w-full xl:top-[200px] md:top-[150px] top-[110px] xl:-right-[40%] -right-[33%]">
-                    <img class="absolute w-[77%] top-0 left-0 right-0 bottom-0 my-auto mx-auto" src="{{site.baseurl}}assets/images/typography/kannada_individual-16.png">
+                    <img class="absolute w-[77%] top-0 left-0 right-0 bottom-0 my-auto mx-auto drop-shadow-lg" src="{{site.baseurl}}assets/images/typography/kannada_individual-16.png">
                     <img src="{{site.baseurl}}assets/images/typography/website_42-42.png">
                 </div>
             </div>
             <div class="absolute max-w-[780px]">
-                <div class="relative xl:max-w-[780px] md:max-w-[560px] max-w-[330px] top-[50px] xl:-right-[370px] md:-right-[200px] -right-[130px]">
+                <div class="relative xl:max-w-[780px] md:max-w-[560px] max-w-[330px] top-[50px] xl:-right-[370px] md:-right-[200px] -right-[130px] drop-shadow-lg">
                     <img class="w-[20%] m-auto" src="{{site.baseurl}}assets/images/typography/website_42-43.png">
                 </div>
             </div>
@@ -71,7 +71,7 @@ layout: base
         <div class="lg:col-span-6 col-span-10 align-middle text-[48px] lg:pl-0 pl-5 flex items-center">
             During a trip to Karnataka, I observed a lack of elegant Kannada script fonts, with most being thick and bold. This inspired me to create a refined and graceful Kannada typeface.
         </div>
-        <div class="lg:col-span-4 col-span-10 flex justify-center items-center">
+        <div class="lg:col-span-4 col-span-10 flex lg:flex-row-reverse lg:justify-normal justify-center lg:items-baseline items-center">
             <img class="object-scale-down w-[330px]" src="{{site.baseurl}}assets/images/typography/kannada_individual_letters-20.png">
         </div>
     </div>
