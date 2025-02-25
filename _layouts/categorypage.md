@@ -3,14 +3,14 @@ layout: base
 ---
 <div class="max-w-screen md:px-20 px-5 text-white font-[Instrument_Serif] my-20">
     <div class="w-2/3 mx-auto mb-20">
-        <div class="text-[96px] font-[Instrument_Serif] my-10 text-center">
+        <div class="lg:text-[96px] md:text-[96px] text-[50px] flex justify-center items-center fit-title-with-banner min-h-[145px] italic">
             {{ page.category }}
         </div>
-        <div class="text-[36px] font-[Instrument_Serif] my-10 text-center">
+        <div class="md:text-[36px] text-[22px] md:leading-10 leading-5 font-[Instrument_Serif] my-10 text-center">
             {{ page.description }}
         </div>
     </div>
-    <div class="grid grid-cols-2 gap-5">
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-5">
     {% if page.order != nil %}
         {% for filename in page.order %}
             {% assign category = page.category | prepend: "_" %}
