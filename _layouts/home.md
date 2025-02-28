@@ -32,7 +32,7 @@ layout: base
     <div class="md:text-[64px] text-[48px]">
         works
     </div>
-    <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 gap-5">
+    <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 xl:gap-10 gap-5">
         <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
             <a href="{{site.baseurl}}typography">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">

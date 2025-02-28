@@ -57,12 +57,12 @@ layout: base
             <div class="absolute xl:w-[780px] md:w-[560px] w-[330px] -rotate-13">
                 <div class="relative max-w-full xl:top-[200px] md:top-[150px] top-[110px] xl:-right-[40%] -right-[33%]">
                     <img class="absolute w-[77%] top-0 left-0 right-0 bottom-0 my-auto mx-auto z-1" src="{{site.baseurl}}assets/images/typography/kannada_individual-16.png">
-                    <img class="drop-shadow-[-10px_-10px_0_rgba(0,0,0,0.6)] z-0" src="{{site.baseurl}}assets/images/typography/website_42-42.png">
+                    <img class="drop-shadow-[-10px_-10px_0_rgba(0,0,0,0.5)] z-0" src="{{site.baseurl}}assets/images/typography/website_42-42.png">
                 </div>
             </div>
             <div class="absolute max-w-[780px]">
                 <div class="relative xl:max-w-[780px] md:max-w-[560px] max-w-[330px] top-[45px] xl:top-[70px] xl:-right-[370px] md:-right-[200px] -right-[130px] drop-shadow-2xl">
-                    <img class="w-[20%] m-auto drop-shadow-[-10px_5px_0_rgba(0,0,0,0.6)]" src="{{site.baseurl}}assets/images/typography/website_42-43.png">
+                    <img class="w-[20%] m-auto drop-shadow-[-10px_5px_0_rgba(0,0,0,0.5)]" src="{{site.baseurl}}assets/images/typography/website_42-43.png">
                 </div>
             </div>
         </div>
@@ -71,8 +71,11 @@ layout: base
         <div class="lg:col-span-6 col-span-10 align-middle md:text-[48px] text-[22px] lg:pl-0 pl-5 flex items-center md:leading-10 leading-5">
             During a trip to Karnataka, I observed a lack of elegant Kannada script fonts, with most being thick and bold. This inspired me to create a refined and graceful Kannada typeface.
         </div>
-        <div class="lg:col-span-4 col-span-10 flex lg:flex-row-reverse lg:justify-normal justify-center lg:items-baseline items-center">
-            <img class="object-scale-down w-[330px]" src="{{site.baseurl}}assets/images/typography/kannada_individual_letters-20.png">
+        <div class="lg:col-span-4 col-span-10 flex lg:flex-row-reverse lg:justify-normal justify-center lg:items-baseline items-center image-switch relative">
+            <img class="absolute object-scale-down h-[330px] opacity-0" src="{{site.baseurl}}assets/images/typography/kannada_individual_letters-20.png">
+            <img class="absolute object-scale-down h-[330px] opacity-0" src="{{site.baseurl}}assets/images/typography/kannada_individual_letters-17.png">
+            <img class="object-scale-down h-[330px] opacity-0" src="{{site.baseurl}}assets/images/typography/kannada_individual_letters-18.png">
+            <img class="absolute object-scale-down h-[330px] opacity-0" src="{{site.baseurl}}assets/images/typography/kannada_individual_letters-19.png">
         </div>
     </div>
     <div class="md:text-[48px] text-[22px] italic">

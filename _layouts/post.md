@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<div class="max-w-screen md:px-20 px-5 text-white font-[Instrument_Serif] my-20">
+<div class="max-w-screen md:px-20 px-5 text-white font-[Instrument_Serif] mb-20">
     <div class="lg:w-2/3 w-full mx-auto mb-20">
         <div class="md:text-[96px] text-[50px] md:leading-20 leading-10 flex justify-center items-center fit-title-ith-banner min-h-[145px] italic text-center">
             {{ page.name}}
@@ -10,14 +10,6 @@ layout: base
             {{ page.description }}
         </div>
     </div>
-    <!-- <div class="md:w-2/3 w-full">
-        <div class="text-[96px] text-clip font-[Instrument_Serif] my-10 leading-25">
-            {{ page.name}}
-        </div>
-        <div class="text-[36px] font-[Instrument_Serif] my-10">
-            {{ page.description}}
-        </div>
-    </div> -->
     {{ content }}
 </div>
 {% include footer.html year=2024 %}
