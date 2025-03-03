@@ -35,18 +35,18 @@ layout: base
         <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-65.png">
     </div>
 </div>
-<div class="text-[36px] h-[200px] flex justify-center items-center leading-10 text-center">
+<div class="text-[36px] h-[200px] flex justify-center items-center leading-10 text-center my-20">
     This Devanagari display typeface explores the <br> dynamic interplay of gradients and colours, pushing <br> the boundaries of traditional letterforms.
 </div>
 <div class="w-full h-fit lg:px-20 px-5 font-[Instrument_Serif] text-white overflow-hidden mb-20">
     <div class="grid grid-cols-2 md:grid-rows-1 grid-rows-2 gap-5">
-        <div class="md:col-span-1 col-span-2 rounded-3xl overflow-hidden relative hover:cursor-pointer image-switch">
-            <img class="relative object-scale-down opacity-0" src="{{site.baseurl}}assets/images/typography/website_23.png">
-            <img class="absolute top-0 left-0 object-scale-down opacity-0" src="{{site.baseurl}}assets/images/typography/website_59.png">
+        <div class="md:col-span-1 col-span-2 rounded-3xl overflow-hidden relative hover:cursor-pointer image-switch i1">
+            <img class="relative object-scale-down" src="{{site.baseurl}}assets/images/typography/website_23.png">
+            <img class="absolute top-0 left-0 object-scale-down" src="{{site.baseurl}}assets/images/typography/website_59.png">
         </div>
-        <div class="md:col-span-1 col-span-2 rounded-3xl overflow-hidden relative hover:cursor-pointer image-switch">
-            <img class="relative object-scale-down" src="{{site.baseurl}}assets/images/typography/website_59.png">
-            <img class="absolute top-0 left-0 object-scale-down" src="{{site.baseurl}}assets/images/typography/website_23.png">
+        <div class="md:col-span-1 col-span-2 rounded-3xl overflow-hidden relative hover:cursor-pointer image-switch i2">
+            <img class="relative object-scale-down opacity-0" src="{{site.baseurl}}assets/images/typography/website_59.png">
+            <img class="absolute top-0 left-0 object-scale-down opacity-0" src="{{site.baseurl}}assets/images/typography/website_23.png">
         </div>
     </div>
 </div>
