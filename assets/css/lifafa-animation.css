@@ -1,19 +1,19 @@
-@keyframes lifafa-card {
+@keyframes lifafa-card-animation {
     0% {
-        transform: translateY(0);
+        scale: 1;
     }
     100% {
         /* left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto; */
-        transform: translateY(300px);
+        scale: 2;
     }
 }
 
 .lifafa-card {
-    animation-name: lifafa-card;
+    animation-name: lifafa-card-animation;
     animation-timing-function: linear;
-    animation-timeline: scroll();
+    animation-timeline: view();
     z-index: 1;
 }
