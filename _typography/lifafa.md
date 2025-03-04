@@ -21,7 +21,7 @@ layout: base
                     <img src="{{site.baseurl}}assets/images/typography/lifafa-no-background.png">
                 </div>
             </div>
-            <div class="absolute xl:w-[410px] md:w-[320px] w-[180px] xl:bottom-[50px] bottom-[45px] xl:right-[470px] md:right-[200px] right-[160px] drop-shadow-2xl -rotate-18 lifafa-card">
+            <div class="absolute xl:w-[270px] md:w-[170px] w-[100px] xl:bottom-[70px] bottom-[70px] xl:right-[470px] md:right-[280px] right-[240px] drop-shadow-2xl -rotate-18 lifafa-card">
                 <div class="relative">
                     <img src="{{site.baseurl}}assets/images/typography/lifafa-no-background.png">
                 </div>
