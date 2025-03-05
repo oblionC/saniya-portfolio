@@ -30,3 +30,4 @@ layout: post
         <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 7.jpg" />
     </div>
 </div>
+{% include footer.html year=2023 %}

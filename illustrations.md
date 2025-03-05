@@ -1,5 +1,5 @@
 ---
 layout: illustrationspage 
 category: illustrations
-description: My photographic style revolves around the dynamic interplay of light and shadow, using contrast to create depth and emotion.
+description: Creating illustrations feels like my personal playground, a space where I freely explore, experiment, and dive into endless techniques and styles.
 ---

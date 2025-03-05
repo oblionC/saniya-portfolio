@@ -10,7 +10,7 @@ layout: base
             {{ page.description }}
         </div>
     </div>
-    <div class="grid grid-cols-2 gap-5">
+    <div class="grid grid-cols-2 gap-5 lazyload">
         {% assign item = site[page.category] | where: "name", "illustration 1" | first %}
         <div class="col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative">
             <!-- <a href="{{site.baseurl}}{{ item.url }}">

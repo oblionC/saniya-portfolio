@@ -10,7 +10,7 @@ layout: base
             {{ page.description }}
         </div>
     </div>
-    <div class="grid md:grid-cols-2 grid-cols-1 gap-5">
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-5 lazyload">
     {% if page.order != nil %}
         {% for filename in page.order %}
             {% assign category = page.category | prepend: "_" %}

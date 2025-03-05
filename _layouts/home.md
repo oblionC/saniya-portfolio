@@ -28,16 +28,18 @@ layout: base
         </div>
     </div>
 </div>
-<div class="font-[Instrument_Serif] min-h-[720px] max-w-full text-white justify-center opacity-0 fade-up flex flex-col md:mx-20 mx-5">
-    <div class="md:text-[64px] text-[48px] italic">
+<div class="font-[Instrument_Serif] min-h-[720px] max-w-full text-white justify-center flex flex-col md:mx-20 mx-5 overflow-hidden" id="works">
+    <div class="md:text-[64px] text-[48px] italic opacity-0 fade-up">
         works
     </div>
-    <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 xl:gap-10 gap-5">
+    <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 xl:gap-10 gap-5 opacity-0 fade-up lazyload">
         <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
             <a href="{{site.baseurl}}typography">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
-                        typography    
+                        <div class="w-full h-full flex justify-center items-center transition-transform ease-in-out duration-300 hover:translate-y-0 translate-y-[100px]">
+                            <img class="w-[200px]" src="{{site.baseurl}}assets/images/website_typography.png">
+                        </div>
                     </div>
                 </div>
                 <img class="w-full h-full object-cover" src="assets/images/illustration1.png" />
@@ -47,17 +49,21 @@ layout: base
             <a href="{{site.baseurl}}photography">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
-                        photography 
+                        <div class="w-full h-full flex justify-center items-center transition-transform ease-in-out duration-300 hover:translate-y-0 translate-y-[100px]">
+                            <img class="w-[200px]" src="{{site.baseurl}}assets/images/website_photography.png">
+                        </div>
                     </div>
                 </div>
                 <img class="w-full h-full object-cover" src="assets/images/photography/photography1.png" />  
             </a>
         </div>
-        <div class="md:col-span-10 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
+        <div class="md:col-span-10 row-span-2 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer md:rotate-0">
             <a href="{{site.baseurl}}illustrations">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
-                        illustrations 
+                        <div class="w-full h-full flex justify-center items-center transition-transform ease-in-out duration-300 hover:translate-y-0 translate-y-[100px]">
+                            <img class="w-[200px]" src="{{site.baseurl}}assets/images/website_illustration.png">
+                        </div>
                     </div>
                 </div>
                 <img class="w-full h-full object-cover" src="assets/images/illustrations/illustration-banner.png" />  

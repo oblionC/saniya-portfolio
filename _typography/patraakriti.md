@@ -12,3 +12,4 @@ layout: base
     This Devanagari display typeface explores the <br> dynamic interplay of gradients and colours, pushing <br> the boundaries of traditional letterforms.
 </div>
 <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/website_21_1.png" />
+{% include footer.html year=2024 %}
