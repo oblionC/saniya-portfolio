@@ -30,7 +30,7 @@ async function waitForFadeInLeft() {
 
 async function lazyload() {
     const imagesParentDiv = document.getElementsByClassName("lazyload")[0]
-    // await new Promise(r => setTimeout(r, 1000))
+    await new Promise(r => setTimeout(r, 1000))
     const images = [...imagesParentDiv.children]
     images.forEach(image => {
         image.classList.add("opacity-0")

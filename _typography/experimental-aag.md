@@ -9,30 +9,32 @@ layout: base
 </div>
 <div class="max-w-screen">
     <div class="relative z-1">
-        <div class="flex flex-row bg-scroll-right w-[2000px] h-[100px] rotate-10 bg-white">
-            <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
-            <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
+        <div class="flex flex-row bg-scroll-right rotate-10">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
         </div>
     </div>
     <div class="relative z-2">
-        <div class="flex flex-row bg-scroll-left w-[2000px] -rotate-10 -translate-y-[200px] -translate-x-[50px] z-2">
-            <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-61.png">
-            <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-61.png">
+        <div class="flex flex-row bg-scroll-left -rotate-10 -translate-y-[100px] xl:-translate-y-[200px] -translate-x-[50px] z-2">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-61.png">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-61.png">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-61.png">
         </div>
     </div>
     <div class="relative">
-        <div class="flex flex-row bg-scroll-right w-[2000px] -translate-y-[100px]">
-            <img class="object-scale-down w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-63.png">
-            <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-63.png">
+        <div class="flex flex-row bg-scroll-right xl:-translate-y-[100px] -translate-y-[50px]">
+            <img class="object-scale-down w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-63.png">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-63.png">
         </div>
     </div>
-    <div class="flex flex-row bg-scroll-left w-[2000px] rotate-3">
-        <img class="object-scale-down w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-64.png">
-        <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-64.png">
+    <div class="flex flex-row bg-scroll-left rotate-3">
+        <img class="object-scale-down w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-64.png">
+        <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-64.png">
     </div>
-    <div class="flex flex-row bg-scroll-right w-[2000px] -rotate-10 -translate-y-[100px]">
-        <img class="object-scale-down w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-65.png">
-        <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-65.png">
+    <div class="flex flex-row bg-scroll-right -rotate-10 -translate-y-[100px]">
+        <img class="object-scale-down w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-65.png">
+        <img class="object-contain w-[2000px] " src="{{site.baseurl}}assets/images/typography/website_aag strips-65.png">
     </div>
 </div>
 <div class="text-[36px] h-[200px] flex justify-center items-center leading-10 text-center my-20">
