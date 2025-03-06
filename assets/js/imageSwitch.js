@@ -6,7 +6,6 @@ async function imageSwitch() {
         maxLength = ((images.length > maxLength) * images.length) + ((images.length <= maxLength) * maxLength)
     }
     for(var i = 0; i < maxLength; i = ((i - 1 < 0) * (maxLength - 1)) + ((i - 1 >= 0) * (i - 1))) {
-        console.log(i)
         for(var imagesContainer of imagesContainers) {
             var images = imagesContainer.getElementsByTagName("img")
             images[i % images.length].classList.remove("opacity-0")
@@ -17,6 +16,5 @@ async function imageSwitch() {
         await new Promise(r => setTimeout(r, 1000))
     }
 }
-
 
 imageSwitch()

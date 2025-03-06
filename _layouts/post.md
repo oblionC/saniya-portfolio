@@ -12,4 +12,4 @@ layout: base
     </div>
     {{ content }}
 </div>
-{% include footer.html year=2024 %}
+{% include footer.html year=page.year%}

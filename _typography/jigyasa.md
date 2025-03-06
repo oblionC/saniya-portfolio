@@ -3,6 +3,7 @@ name: jigyasa(curiosity)
 image: /assets/images/typography/jigyasa_type.png
 description: This expressive typography is created by extracting letters from an image, showcasing my curiosity and keen observation of my surroundings. 
 layout: post
+year: 2023
 ---
 <div class="grid grid-cols-2 gap-5">
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
@@ -30,4 +31,3 @@ layout: post
         <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 7.jpg" />
     </div>
 </div>
-{% include footer.html year=2023 %}

@@ -3,6 +3,7 @@ name: expressive typography
 image: /assets/images/typography/expressive_type.png
 description: A play of light and perspective, this expressive typography is formed through a phone’s back camera reflection. 
 layout: post
+year: 2022
 ---
 <div class="grid grid-cols-3 gap-5">
     <div class="col-span-1 overflow-hidden flex flex-col">

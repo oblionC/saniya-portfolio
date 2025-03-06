@@ -12,6 +12,7 @@ function lazyload() {
     var observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if(entry.isIntersecting) {
+                console.log("loaded")
                 const img = entry.target
                 img.classList.add("fade-up")
                 img.classList.remove("opacity-0")
