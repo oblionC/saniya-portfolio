@@ -5,7 +5,7 @@ layout: base
     You scrolled, you clicked, and now you’re here. Coincidence? I think not. Let’s make something happen, one email or call won’t hurt!
 </div>
 <div class="w-full xl:h-[650px] h-[500px] relative">
-    <div class="bg-white absolute xl:w-[1200px] w-[900px] left-0 right-0 mx-auto -rotate-6">
+    <div class="bg-white border-solid border-3 border-black absolute xl:w-[1200px] w-[900px] left-0 right-0 mx-auto -rotate-6">
         <img class="w-full" src="{{site.baseurl}}assets/images/contacts-border.png">
         <div class="absolute text-black xl:text-[150px] text-[90px] left-[50px] bottom-[50px] leading-30">
             Saniya<br>Murdeshwar
@@ -36,7 +36,7 @@ layout: base
             </a> 
         </div>
     </div>
-    <div class="bg-white absolute xl:w-[1200px] w-[900px] left-0 right-0 mx-auto rotate-4">
+    <div class="bg-white border-solid border-3 border-black absolute xl:w-[1200px] w-[900px] left-0 right-0 mx-auto rotate-4">
         <img class="w-full" src="{{site.baseurl}}assets/images/contacts-border.png">
         <div class="absolute text-black xl:text-[150px] text-[90px] left-[50px] xl:bottom-[50px] bottom-[40px] xl:leading-30 leading-20">
             Saniya<br>Murdeshwar
