@@ -35,6 +35,7 @@ async function lazyload() {
     const images = [...imagesParentDiv.children]
     images.forEach(image => {
         image.classList.add("opacity-0")
+        image.classList.add("h-[500px]")
     })
     const options = {
         root: null, 
@@ -49,11 +50,13 @@ async function lazyload() {
                 if(img.complete) {
                     imgDiv.classList.add("fade-up")
                     imgDiv.classList.remove("opacity-0")
+                    imgDiv.classList.remove("h-[500px]")
                 }
                 else {
                     img.onload = () => {
                         imgDiv.classList.add("fade-up")
                         imgDiv.classList.remove("opacity-0")
+                        imgDiv.classList.remove("h-[500px]")
                     }
                 }
                 observer.unobserve(img);
