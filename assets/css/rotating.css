@@ -16,10 +16,30 @@
     }
 }
 
+
+@-webkit-keyframes rotating-card {
+    from{
+        -webkit-transform: rotate(-3deg);
+    }
+    to{
+        -webkit-transform: rotate(5deg);
+    }
+}
+
 .rotating {
     -webkit-animation: rotating 20s linear infinite;
 }
 
 .reverse-rotating {
     -webkit-animation: reverse-rotating 20s linear infinite;
+}
+
+.rotating-card {
+    -webkit-animation: rotating-card 10s ease-in-out infinite;
+    -webkit-animation-direction: alternate;
+}
+
+.reverse-rotating-card {
+    -webkit-animation: rotating-card 10s ease-in-out infinite;
+    -webkit-animation-direction: alternate-reverse;
 }
