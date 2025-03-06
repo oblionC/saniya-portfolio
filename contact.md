@@ -55,10 +55,12 @@ layout: base
             </div>
         </div>
         <div class="absolute text-black xl:text-[36px] text-[28px] right-[60px] xl:bottom-[50px] bottom-[40px]">
-            <div class="flex flex-row">
-                <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">
-                instagram
-            </div>
+            <a href="https://www.instagram.com/saniyaa_murdeshwar/">
+                <div class="flex flex-row">
+                    <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">
+                    instagram
+                </div>
+            </a>
             <a href="https://www.linkedin.com/in/saniya-murdeshwar-436b78271/">
                 <div class="flex flex-row-reverse text-right">
                     linkedin
