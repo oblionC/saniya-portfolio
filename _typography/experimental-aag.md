@@ -10,9 +10,9 @@ layout: base
 <div class="max-w-screen">
     <div class="relative z-1">
         <div class="flex flex-row bg-scroll-right rotate-10">
-            <img class="object-contain w-[2000px]" src="/assets/images/typography/website_aag strips-62.png">
-            <img class="object-contain w-[2000px]" src="/assets/images/typography/website_aag strips-62.png">
-            <img class="object-contain w-[2000px]" src="/assets/images/typography/website_aag strips-62.png">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
+            <img class="object-contain w-[2000px]" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
         </div>
     </div>
     <div class="relative z-2">
