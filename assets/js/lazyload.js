@@ -18,14 +18,16 @@ async function lazyload() {
                 if(img.complete) {
                     imgDiv.classList.add("fade-up")
                     imgDiv.classList.remove("opacity-0")
+                    console.log("complete")
                 }
                 else {
                     img.onload = () => {
                         imgDiv.classList.add("fade-up")
                         imgDiv.classList.remove("opacity-0")
+                        console.log("onload")
                     }
                 }
-                // observer.unobserve(img);
+                observer.unobserve(img);
             }
         })
     }, options)
