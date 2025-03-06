@@ -10,9 +10,11 @@ layout: base
         <div class="absolute text-black xl:text-[150px] text-[90px] left-[50px] bottom-[50px] leading-30">
             Saniya<br>Murdeshwar
         </div>
-        <div class="absolute text-black text-[36px] left-[60px] top-[80px]">
-            resume
-        </div>
+        <a href="{{site.baseurl}}assets/Resume_Saniya Murdeshwar.pdf" download>
+            <div class="absolute text-black text-[36px] left-[60px] top-[80px]">
+                resume
+            </div>
+        </a>
         <div class="absolute text-black text-[36px] right-[60px] top-[80px]">
             <a href="mailto:saniyamurdeshwar@gmail.com">
                 <div>
@@ -41,9 +43,12 @@ layout: base
         <div class="absolute text-black xl:text-[150px] text-[90px] left-[50px] xl:bottom-[50px] bottom-[40px] xl:leading-30 leading-20">
             Saniya<br>Murdeshwar
         </div>
-        <div class="absolute text-black xl:text-[36px] text-[28px] left-[60px] xl:top-[80px] top-[50px]">
-            resume
-        </div>
+        <a href="{{site.baseurl}}assets/Resume_Saniya Murdeshwar.pdf" download>
+            <div class="absolute text-black text-[36px] left-[60px] top-[80px] flex flex-row">
+                <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">
+                resume
+            </div>
+        </a>
         <div class="absolute text-black xl:text-[36px] text-[28px] right-[60px] xl:top-[80px] top-[50px]">
             <a class="animate-bounce" href="mailto:saniyamurdeshwar@gmail.com">
                 <div>

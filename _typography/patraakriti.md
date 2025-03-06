@@ -1,6 +1,6 @@
 ---
 name: patraakriti (letterform of paper)
-image: /assets/images/typography/origami_type.png
+image: assets/images/typography/origami_type.png
 description: Where origami meets typography, this Devanagari typeface is in the making. 
 layout: base
 ---

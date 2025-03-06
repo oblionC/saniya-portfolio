@@ -1,6 +1,6 @@
 ---
 name: expressive typography
-image: /assets/images/typography/expressive_type.png
+image: assets/images/typography/expressive_type.png
 description: A play of light and perspective, this expressive typography is formed through a phone’s back camera reflection. 
 layout: post
 year: 2022

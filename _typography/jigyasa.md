@@ -1,6 +1,6 @@
 ---
 name: jigyasa(curiosity)
-image: /assets/images/typography/jigyasa_type.png
+image: assets/images/typography/jigyasa_type.png
 description: This expressive typography is created by extracting letters from an image, showcasing my curiosity and keen observation of my surroundings. 
 layout: post
 year: 2023

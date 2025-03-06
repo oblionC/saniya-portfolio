@@ -1,6 +1,6 @@
 ---
 name: lifafa(envelope)
-image: /assets/images/typography/type-10.png
+image: assets/images/typography/type-10.png
 # animation: lifafa_animation
 description: After lettering "lifafa" in watercolour on an envelope and loving the result, I knew it deserved a digital transformation. 
 layout: base 
