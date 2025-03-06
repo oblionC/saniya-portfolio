@@ -9,14 +9,14 @@ layout: base
 </div>
 <div class="max-w-screen">
     <div class="relative z-1">
-        <div class="flex flex-row bg-scroll-right w-[2000px] rotate-10">
-            <img class="object-scale-down w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
+        <div class="flex flex-row bg-scroll-right w-[2000px] h-[100px] rotate-10 bg-white">
+            <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
             <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-62.png">
         </div>
     </div>
     <div class="relative z-2">
         <div class="flex flex-row bg-scroll-left w-[2000px] -rotate-10 -translate-y-[200px] -translate-x-[50px] z-2">
-            <img class="object-scale-down w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-61.png">
+            <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-61.png">
             <img class="object-contain w-full" src="{{site.baseurl}}assets/images/typography/website_aag strips-61.png">
         </div>
     </div>

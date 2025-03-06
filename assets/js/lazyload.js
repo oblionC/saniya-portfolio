@@ -1,3 +1,34 @@
+async function waitForFadeInRight() {
+    const flowerDiv = document.getElementsByClassName("fade-in-to-right")[0]
+    flowerDiv.classList.add("opacity-0")
+    const img = flowerDiv.getElementsByTagName("img")[0]
+    console.log(img)
+    if(img.complete) {
+        flowerDiv.classList.add("fade-right")
+        flowerDiv.classList.remove("opacity-0")
+    }
+    else {
+        img.onload = () => {
+            flowerDiv.classList.add("fade-right")
+            flowerDiv.classList.remove("opacity-0")
+        }
+    }
+}
+
+async function waitForFadeInLeft() {
+    const flowerDiv = document.getElementsByClassName("fade-in-to-left")[0]
+    const img = flowerDiv.getElementsByTagName("img")[0]
+    console.log(img)
+    if(img.complete) {
+        flowerDiv.classList.add("fade-left")
+    }
+    else {
+        img.onload = () => {
+            flowerDiv.classList.add("fade-left")
+        }
+    }
+}
+
 async function lazyload() {
     const imagesParentDiv = document.getElementsByClassName("lazyload")[0]
     // await new Promise(r => setTimeout(r, 1000))
@@ -18,13 +49,11 @@ async function lazyload() {
                 if(img.complete) {
                     imgDiv.classList.add("fade-up")
                     imgDiv.classList.remove("opacity-0")
-                    console.log("complete")
                 }
                 else {
                     img.onload = () => {
                         imgDiv.classList.add("fade-up")
                         imgDiv.classList.remove("opacity-0")
-                        console.log("onload")
                     }
                 }
                 observer.unobserve(img);
@@ -35,3 +64,5 @@ async function lazyload() {
 }
 
 lazyload()
+waitForFadeInRight()
+waitForFadeInLeft()
