@@ -1,8 +1,6 @@
 async function waitForFadeInRight() {
     const flowerDiv = document.getElementsByClassName("fade-in-to-right")[0]
-    flowerDiv.classList.add("opacity-0")
     const img = flowerDiv.getElementsByTagName("img")[0]
-    console.log(img)
     if(img.complete) {
         flowerDiv.classList.add("fade-right")
         flowerDiv.classList.remove("opacity-0")
@@ -18,13 +16,14 @@ async function waitForFadeInRight() {
 async function waitForFadeInLeft() {
     const flowerDiv = document.getElementsByClassName("fade-in-to-left")[0]
     const img = flowerDiv.getElementsByTagName("img")[0]
-    console.log(img)
     if(img.complete) {
         flowerDiv.classList.add("fade-left")
+        flowerDiv.classList.remove("opacity-0")
     }
     else {
         img.onload = () => {
             flowerDiv.classList.add("fade-left")
+            flowerDiv.classList.remove("opacity-0")
         }
     }
 }
